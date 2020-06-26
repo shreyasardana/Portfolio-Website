@@ -1,0 +1,109 @@
+<style type="text/css">
+*,
+*::before,
+*::after
+
+#{
+margin: 0;
+padding: 0;
+}
+html, body{
+width: 100%;
+height: 100%;
+font-size:18px;
+font-weight: normal;
+}
+
+.nav-style{
+	position: fixed;
+background: "Black";
+top: 0px;
+left: 0px;
+width: 100%;
+overflow: none;
+z-index: 1;
+text-align: center;
+
+}
+
+.inner-cover{
+
+	font-color: #;
+
+}
+
+.cover-heading{
+
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	font-family: "Bahnschrift";
+	font-weight: bold;
+
+}
+
+
+.bottom{
+position: relative;
+	top: 100%;
+	left: 50%;
+	transform: translate( -50%, -100%);
+	    padding-bottom: 5%;
+	font-family: "Bahnschrift";
+	font-style: "#fff"
+	font-size: 100px;
+
+}
+
+
+
+.contacttext{
+	padding-top: 30%;
+
+}
+
+.contactimg {
+    vertical-align: middle;
+    padding-top: 2%;
+    background-color: white;
+
+}
+
+.center{
+	text-align: center;
+}
+.jumbotron{
+	padding: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.aboutjumbotron{
+	font-size: x-large;
+    font-weight: 600;
+}
+
+.traveljumbotron{
+	font-size: x-large;
+    font-weight: 600;
+        padding-top: 6%
+}
+
+
+
+.background{
+        width: 100%;
+	height: 100%;
+	background-image: url("images/photo-1483909796554-bb0051ab60ad.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+.travelpic{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-y: auto;
+}
